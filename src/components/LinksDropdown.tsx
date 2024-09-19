@@ -159,7 +159,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
             </DropdownLink>
           ) : null}
           <Divider />
-          <div className="my-4 flex justify-center items-center gap-4">
+          {/* <div className="my-4 flex justify-center items-center gap-4">
             <CircleDropdownLink
               href={conf().DISCORD_LINK}
               icon={Icons.DISCORD}
@@ -170,7 +170,7 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
               icon={Icons.TWITTER}
             />
             <CircleDropdownLink href="/support" icon={Icons.MAIL} />
-          </div>
+          </div> */}
         </div>
       </Transition>
     </div>
