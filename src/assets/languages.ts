@@ -1,4 +1,4 @@
-// import ar from "@/assets/locales/ar.json";
+import ar from "@/assets/locales/ar.json";
 // import bg from "@/assets/locales/bg.json";
 // import bn from "@/assets/locales/bn.json";
 // import ca from "@/assets/locales/ca.json";
@@ -70,7 +70,7 @@ export const locales = {
   // lv,
   // th,
   // ne,
-  // ar,
+  ar,
   // es,
   // et,
   // tok,
