@@ -84,7 +84,7 @@ export function SupportPage() {
       <PageTitle subpage k="global.pages.support" />
       <ThinContainer>
         <Heading1>{t("support.title")}</Heading1>
-        <Paragraph>
+        {/* <Paragraph>
           <Trans
             i18nKey="support.text"
             components={{
@@ -101,7 +101,7 @@ export function SupportPage() {
               Sudo-Flix Docs
             </Button>
           </div>
-        </Paragraph>
+        </Paragraph> */}
         <Ol
           items={[
             <Item title={t("support.q1.title")}>
@@ -109,14 +109,14 @@ export function SupportPage() {
                 <MwLink to="https://discord.gg/ZaQMk9yyhb" />
               </Trans>
             </Item>,
-            <Item title={t("support.q2.title")}>
-              <Trans i18nKey="support.q2.body">
-                <MwLink to="https://github.com/sussy-code/smov" />
-              </Trans>
-            </Item>,
+            // <Item title={t("support.q2.title")}>
+            //   <Trans i18nKey="support.q2.body">
+            //     <MwLink to="https://github.com/sussy-code/smov" />
+            //   </Trans>
+            // </Item>,
           ]}
         />
-        <Paragraph className="flex space-x-3 items-center">
+        {/* <Paragraph className="flex space-x-3 items-center">
           <Icon icon={Icons.MAIL} />
           <a
             href={`mailto:${conf().DMCA_EMAIL}`}
@@ -129,7 +129,7 @@ export function SupportPage() {
           >
             {conf().DMCA_EMAIL ?? ""}
           </a>
-        </Paragraph>
+        </Paragraph> */}
       </ThinContainer>
     </SubPageLayout>
   );

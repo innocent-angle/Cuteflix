@@ -15,12 +15,12 @@
       "title": "The search results display the show or movie, why can't I play it?"
     },
     "q4": {
-      "body": "All stored data is kept locally in your browser. If you choose to sync to sudo-cloud (top right menu) your data will be synced with the sudo-backend hosted by the original creator of sudo-flix. It will allow you to sync your show progress if you change devices or use any other service that uses the backend. You can choose for yourself if this is worth it. I use this service myself and consider it safe.",
-      "title": "What is sudo-cloud and how is data handled?"
+      "body": "The majority of your data is stored locally on your browser, including your progress and preferences. The data I have from you, such as your IP address and browser info, is deleted often.",
+      "title": "How is data handled?"
     },
     "q5": {
-      "body": "Well Cuteflix has a twitter account that can be found in the footer of this page as well as a link to the source code on Github.",
-      "title": "How can I find out more?"
+      "body": "We have a Discord, you can find a link at the top left or bottom of the page. You can ask for help there or complain if something isn't working.",
+      "title": "I need more help!"
     },
     "title": "About Cuteflix"
   },
@@ -89,8 +89,8 @@
   },
   "footer": {
     "legal": {
-      "disclaimer": "Disclaimer",
-      "disclaimerText": "Cuteflix does not host any files, it merely pulls streams from 3rd party services. Legal issues should be taken up with the file hosts and providers. Vid Binge is not responsible for any media files shown by the video providers."
+      "disclaimer": "DMCA",
+      "disclaimerText": "All content streams are provided by third party sources. Cuteflix, it's host and it's proxies are all completely legal and legitimate. We host none of the content you see here."
     },
     "links": {
       "discord": "Discord",
@@ -474,7 +474,7 @@
     "title": "Support",
     "text": "Cuteflix is designed to be as user-friendly as possible. However, people still have questions and issues. This page is here to help resolve these shortcomings",
     "q1": {
-      "body": "You can join the official <0>Cuteflix discord</0> and ask questions there or you can email the one provided at the bottom of this page.",
+      "body": "You can join the official <0>Cuteflix discord</0> and ask questions there.",
       "title": "Where can I get help?"
     },
     "q2": {
