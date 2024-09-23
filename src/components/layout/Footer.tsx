@@ -78,9 +78,9 @@ export function Footer() {
           {/* <FooterLink icon={Icons.GITHUB} href={conf().GITHUB_LINK}>
             {t("footer.links.github")}
           </FooterLink> */}
-          <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>
+          {/* <FooterLink icon={Icons.DISCORD} href={conf().DISCORD_LINK}>
             {t("footer.links.discord")}
-          </FooterLink>
+          </FooterLink> */}
           {/* <FooterLink icon={Icons.TWITTER} href={conf().TWITTER_LINK}>
             {t("footer.links.twitter")}
           </FooterLink> */}
